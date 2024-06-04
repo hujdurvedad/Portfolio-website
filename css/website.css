@@ -1,0 +1,101 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(13, 13, 13);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: futura;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@font-face {
+  font-family: futura;
+  src: url(../sources/fonts/futura/Futura\ Heavy\ font.ttf);
+}
+
+@font-face {
+  font-family: futura-lighter;
+  src: url(../sources/fonts/futura/futura\ light\ bt.ttf);
+}
+
+@keyframes bouncing-ball {
+  0% {
+    bottom: 0px;
+  }
+
+  100% {
+    bottom: 50px;
+  }
+}
+
+.site-wrapper {
+  z-index: 0;
+  background-image: url(../sources/images/self-portrait.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: 30%;
+  display: none;
+}
+
+.fixed-nav-button {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  width: 55px;
+  height: 55px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 119, 0);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.fixed-nav-button-icon {
+  width: 70%;
+}
+
+.fixed-nav-button:hover {
+  margin-bottom: 3px;
+}
+
+.sections-background {
+  width: 400vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../sources/images/sections-background.svg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 9000px;
+  border-bottom-right-radius: 9000px;
+  background-color: rgb(15, 30, 49);
+  border-bottom: rgb(255, 119, 0) solid 10px;
+}
+
+.sections-background2 {
+  margin-top: 600px;
+  border: none;
+  border-radius: 0;
+  border-top-left-radius: 9000px;
+  border-top-right-radius: 9000px;
+  border-top: rgb(255, 119, 0) solid 10px;
+}

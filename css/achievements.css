@@ -1,0 +1,87 @@
+.achievements-section {
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: rgb(19, 40, 71);
+    padding: 70px 15vw;
+}
+
+.achievements-subtitle {
+    font-size: 20px;
+    color: rgb(255, 119, 0);
+    margin-bottom: 10px;
+}
+
+.achievements-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+.achievements-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 70px;
+    align-items: center;
+    justify-content: center;
+    gap: 57px;
+}
+
+.slider-div {
+    opacity: 0.4;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.slider-div:hover {
+    opacity: 1;
+}
+
+.slider-div:hover .slider-div-img {
+    height: 55%;
+}
+
+.slider-div:hover .slider-div-img3 {
+    height: 67%;
+}
+
+.slider-div:hover .slider-div-img2 {
+    height: 50%;
+}
+
+.slider-div-img {
+    height: 70px;
+    transition: 0.3s;
+}
+
+.slider-div-img3 {
+    height: 65%;
+}
+
+.slider-div-img2 {
+    height: 60px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.slider-div-text {
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    .slider-div {
+        opacity: 1;
+    }
+}

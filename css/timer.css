@@ -1,0 +1,176 @@
+.timer-container {
+    width: 100vw;
+    text-align: center;
+    margin-top: 150px;
+    padding: 0 15vw;
+    padding: 100px 0;
+    background-color: rgb(19, 40, 71);
+}
+
+.timer-title {
+    font-size: 50px;
+    color: rgb(255, 119, 0);
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.timer-list {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: rgb(255, 119, 0);
+}
+
+.timer-li {
+    display: flex;
+    flex-direction: column;
+}
+
+.timer-li span {
+    color: white;
+    font-size: 90px;
+}
+
+.timer-emojis {
+    display: none;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 675px) {
+    .timer-title {
+        font-size: 45px;
+    }
+
+    .timer-list {
+        font-size: 15px;
+        gap: 40px;
+    }
+
+    .timer-li span {
+        font-size: 85px;
+    }
+
+    .timer-emojis {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 605px) {
+    .timer-title {
+        font-size: 42px;
+    }
+
+    .timer-list {
+        font-size: 15px;
+    }
+
+    .timer-li span {
+        font-size: 80px;
+    }
+
+    .timer-emojis {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .timer-title {
+        font-size: 37px;
+        margin-bottom: 10px;
+    }
+
+    .timer-list {
+        font-size: 13px;
+        gap: 35px;
+    }
+
+    .timer-li span {
+        font-size: 70px;
+    }
+
+    .timer-emojis {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .timer-title {
+        font-size: 35px;
+    }
+
+    .timer-list {
+        font-size: 15px;
+        gap: 20px;
+    }
+
+    .timer-li span {
+        font-size: 65px;
+    }
+
+    .timer-emojis {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .timer-title {
+        font-size: 27px;
+    }
+
+    .timer-list {
+        font-size: 13px;
+        gap: 23px;
+    }
+
+    .timer-li span {
+        font-size: 55px;
+    }
+
+    .timer-emojis {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .timer-title {
+        font-size: 25px;
+    }
+
+    .timer-list {
+        font-size: 12px;
+        gap: 20px;
+    }
+
+    .timer-li span {
+        font-size: 50px;
+    }
+
+    .timer-emojis {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .timer-title {
+        font-size: 24px;
+    }
+
+    .timer-list {
+        font-size: 11px;
+        gap: 15px;
+    }
+
+    .timer-li span {
+        font-size: 47px;
+    }
+
+    .timer-emojis {
+        font-size: 12px;
+    }
+}

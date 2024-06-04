@@ -1,0 +1,93 @@
+footer {
+    width: 100vw;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+.fun-facts {
+    font-size: 16px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 0 15vw;
+}
+
+li {
+    font-family: futura-lighter;
+}
+
+.fun-fact-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(255, 119, 0);
+    font-family: futura;
+}
+
+.fun-fact-thanks {
+    transition: 0.3s;
+    margin-top: 10px;
+    font-family: futura;
+}
+
+.fun-fact-thanks:hover {
+    color: rgb(255, 119, 0);
+}
+
+.hr2 {
+    background-color: white;
+    width: 100%;
+    height: 2px;
+    margin: 50px 15vw;
+}
+
+.personal-logo2 {
+    height: 65px;
+    margin-bottom: 40px;
+}
+
+.footer-text {
+    font-size: 17px;
+    text-align: center;
+}
+
+.footer-link {
+    display: inline-block;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-link:hover {
+    color: rgb(255, 119, 0);
+}
+
+@media screen and (max-width: 727px) {
+    .footer-text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    footer {
+      margin-bottom: 50px;
+    }
+  
+    .fixed-nav-button {
+      width: 50px;
+      height: 50px;
+      bottom: 20px;
+      right: 20px;
+    }
+  }
+
+@media screen and (max-width: 500px) {
+    .hr2 {
+        width: 300px;
+    }
+}
