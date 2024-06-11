@@ -42,9 +42,10 @@ li {
 
 .hr2 {
     background-color: white;
-    width: 100%;
+    width: 35%;
     height: 2px;
     margin: 50px 15vw;
+    border-radius: 20px;
 }
 
 .personal-logo2 {

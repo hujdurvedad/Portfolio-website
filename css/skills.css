@@ -117,8 +117,18 @@
     }
 }
 
+@media screen and (max-width: 450px) {
+    .inner-bar5 .bar-second-text {
+        opacity: 0;
+    }
+
+    .inner-bar8 .bar-second-text {
+        opacity: 0;
+    }
+}
+
 @media screen and (max-width: 420px) {
     .bar-second-text2 {
-        opacity: 0;;
+        opacity: 0;
     }
 }

@@ -8,7 +8,7 @@
 
 .main-nav {
     width: 100vw;
-    height: 70px;
+    padding: 25px 0;
     position: fixed;
     overflow: hidden;
     display: flex;
@@ -131,6 +131,7 @@
     opacity: 1;
     pointer-events: all;
     transform: translateY(0);
+    margin: 15px 0;
 }
 
 .burger {

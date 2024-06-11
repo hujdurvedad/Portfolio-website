@@ -1,6 +1,7 @@
 const header = document.querySelector(".main-nav");
 const logo = document.querySelector(".nav-logo");
 const navbar = document.querySelector(".nav-links");
+const navLink = document.querySelector(".nav-link")
 const arrow = document.querySelector(".arrow-down");
 const otherLanguage = document.querySelector(".language2-parent");
 const language = document.querySelector(".language");
@@ -13,6 +14,8 @@ language.addEventListener("click", () => {
     otherLanguage.classList.add("show-language")
     header.classList.add("bigger-header")
     isCliked = true;
+
+    
 
     header.style.backgroundColor = 'rgb(19, 40, 71)';
     header.style.paddingTop = "0px"
