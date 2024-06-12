@@ -12,6 +12,11 @@ document.addEventListener("DOMContentLoaded", () => {
             formMessage.textContent = "Please fill out all fields.";
             formMessage.className = "message error";
             formMessage.style.display = "block";
+
+            setTimeout(() => {
+                formMessage.style.display = "none";
+            }, 5000);
+            
             return;
         }
 
@@ -39,6 +44,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 formMessage.textContent = "There was an error sending your message. Please try again.";
                 formMessage.className = "message error";
                 formMessage.style.display = "block";
+
+                setTimeout(() => {
+                    formMessage.style.display = "none";
+                }, 5000);
             });
     });
 });

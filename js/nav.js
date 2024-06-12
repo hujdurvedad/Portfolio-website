@@ -15,8 +15,6 @@ language.addEventListener("click", () => {
     header.classList.add("bigger-header")
     isCliked = true;
 
-    
-
     header.style.backgroundColor = 'rgb(19, 40, 71)';
     header.style.paddingTop = "0px"
     logo.style.height = '35px';
