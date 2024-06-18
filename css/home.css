@@ -127,4 +127,8 @@ p {
     .main-subtitle {
         font-size: 25px;
     }
+
+    .changing-keyword {
+        margin-left: 10px;
+    }
 }
