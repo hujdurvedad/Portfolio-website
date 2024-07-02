@@ -127,11 +127,11 @@
 
 @media screen and (max-width: 735px) {
     .welcome-title {
-        font-size: 19px;
+        font-size: 30px;
     }
 
     .welcome-title-diff {
-        font-size: 31px;
+        font-size: 55px;
     }
 
     .welcome-subtitle {
@@ -142,5 +142,35 @@
     .hire-button {
         font-size: 18px;
         height: 42px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .welcome-title {
+        font-size: 27px;
+    }
+
+    .welcome-title-diff {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 517px) {
+    .welcome-title {
+        font-size: 25px;
+    }
+
+    .welcome-title-diff {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 439px) {
+    .welcome-title {
+        font-size: 19px;
+    }
+
+    .welcome-title-diff {
+        font-size: 31px;
     }
 }

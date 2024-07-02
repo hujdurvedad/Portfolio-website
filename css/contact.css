@@ -245,11 +245,13 @@
     }
 
     .contact-form {
+        margin-top: 50px;
         width: 100%;
+        align-items: center;
     }
 
     .form-inputs {
-        width: 100%;
+        width: 80%;
     }
 
     .form-input1 {
@@ -274,6 +276,10 @@
         border-right: none;
         border-radius: 0;
     }
+
+    .form-inputs {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -281,5 +287,3 @@
         height: 300px;
     }
 }
-
-@media screen and (max-width: 425px) {}
