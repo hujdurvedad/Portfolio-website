@@ -90,7 +90,7 @@ p {
 @media screen and (max-width: 1200px) {
     .home-container {
         flex-direction: column;
-        justify-content: end;
+        justify-content: center;
         align-items: center;
         gap: 50px;
     }
