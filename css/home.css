@@ -83,7 +83,7 @@ p {
     }
 
     .my-image {
-        height: 50%;
+        height: 70%;
     }
 }
 
@@ -106,6 +106,7 @@ p {
 
     .my-image {
         align-self: center;
+        height: 50%;
     }
 }
 
@@ -130,5 +131,9 @@ p {
 
     .changing-keyword {
         margin-left: 10px;
+    }
+
+    .my-image {
+        height: 40%;
     }
 }
