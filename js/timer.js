@@ -15,7 +15,7 @@
     today = mm + "/" + dd + "/" + yyyy;
     if (today > birthday) {
         birthday = dayMonth + nextYear;
-    }
+    }6
 
     const countDown = new Date(birthday).getTime(),
         x = setInterval(function () {
@@ -40,7 +40,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const autofilledElements = document.querySelectorAll('input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill');
     autofilledElements.forEach(element => {
-        element.style.webkitTextFillColor = '#white'; // Set your text color
-        element.style.webkitBoxShadow = '0 0 0px 1000px transparent inset'; // Make the background transparent
+        element.style.webkitTextFillColor = '#white';
+        element.style.webkitBoxShadow = '0 0 0px 1000px transparent inset';
     });
 });

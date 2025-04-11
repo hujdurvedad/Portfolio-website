@@ -25,16 +25,16 @@
 
 .gallery-content {
     width: 800px;
-    height: 1350px;
+    height: 1250px;
     display: grid;
     gap: 5px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 35% 1fr 15% 20%;
     grid-template-areas: 
-    "ten1 prs prs"
-    "pod pod pan"
-    "str ten2 pan"
-    "str ten2 pai";
+    "one two two"
+    "three three four"
+    "five six four"
+    "five six seven";
 }
 
 .gallery-img {
@@ -44,45 +44,49 @@
 .gallery-img1 {
     width: 100%;
     height: 100%;
-    grid-area: ten1;
+    grid-area: one;
+    object-fit: cover;
 }
 
 .gallery-img2 {
     width: 100%;
     height: 100%;
-    grid-area: prs;
+    grid-area: two;
     object-fit: cover;
 }
 
 .gallery-img3 {
     width: 100%;
     height: 100%;
-    grid-area: pod;
+    grid-area: three;
+    object-fit: cover;
 }
 
 .gallery-img4 {
     width: 100%;
     height: 100%;
-    grid-area: pan;
+    grid-area: four;
     object-fit: cover;
 }
 
 .gallery-img5 {
     width: 100%;
     height: 100%;
-    grid-area: str;
+    grid-area: five;
+    object-fit: cover;
 }
 
 .gallery-img6 {
     width: 100%;
     height: 100%;
-    grid-area: ten2;
+    grid-area: six;
+    object-fit: cover;
 }
 
 .gallery-img7 {
     width: 100%;
     height: 100%;
-    grid-area: pai;
+    grid-area: seven;
     object-fit: cover;
 }
 
