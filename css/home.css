@@ -22,7 +22,7 @@
 }
 
 .my-image {
-    height: 75%;
+    height: 80%;
     align-self: end;
 }
 
@@ -83,7 +83,7 @@ p {
     }
 
     .my-image {
-        height: 70%;
+        height: 75%;
     }
 }
 
@@ -112,7 +112,7 @@ p {
 
 @media screen and (max-width: 930px) {
     .main-title {
-        font-size: 55px;
+        font-size: 45px;
     }
 
     .main-subtitle {
@@ -134,6 +134,6 @@ p {
     }
 
     .my-image {
-        height: 40%;
+        height: 45%;
     }
 }
