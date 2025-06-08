@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
             setTimeout(() => {
                 formMessage.style.display = "none";
             }, 5000);
-            
+
             return;
         }
 
@@ -27,20 +27,24 @@ document.addEventListener("DOMContentLoaded", () => {
             message: message,
         })
             .then((response) => {
-                console.log("SUCCESS!", response.status, response.text); // Added for debugging
+                console.log("SUCCESS!", response.status, response.text);
                 formMessage.textContent = "Your message has been sent successfully!";
                 formMessage.className = "message success";
                 formMessage.style.display = "block";
 
-                // Hide the message after 5 seconds
                 setTimeout(() => {
                     formMessage.style.display = "none";
                 }, 5000);
 
                 document.getElementById("contact-form");
+
+                document.getElementById("name").value = "";
+                document.getElementById("email").value = "";
+                document.getElementById("subject").value = "";
+                document.getElementById("message").value = "";
             })
             .catch((error) => {
-                console.error("EmailJS error:", error); // Added for debugging
+                console.error("EmailJS error:", error);
                 formMessage.textContent = "There was an error sending your message. Please try again.";
                 formMessage.className = "message error";
                 formMessage.style.display = "block";

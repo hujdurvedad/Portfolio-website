@@ -8,6 +8,7 @@ const language = document.querySelector(".language");
 const controls = document.querySelector(".header-controls");
 
 let isCliked = false;
+
 language.addEventListener("click", () => {
   if (isCliked === false) {
     arrow.classList.add("arrow-clicked")
@@ -17,6 +18,7 @@ language.addEventListener("click", () => {
 
     header.style.backgroundColor = 'rgb(19, 40, 71)';
     header.style.paddingTop = "0px"
+    header.style.height = "70px";
     logo.style.height = '35px';
     logo.style.marginRight = '5px';
     navbar.style.fontSize = '18px';
@@ -42,6 +44,7 @@ function nav() {
     burgerActive = true
 
     header.style.backgroundColor = 'rgb(19, 40, 71)';
+    header.style.height = "70px";
     header.style.paddingTop = "0px"
     logo.style.height = '35px';
     logo.style.marginRight = '5px';
@@ -60,6 +63,7 @@ window.addEventListener('scroll', () => {
 
   if (verticalScrollPx > 50) {
     header.style.backgroundColor = 'rgb(19, 40, 71)';
+    header.style.height = "70px";
     header.style.paddingTop = "0px"
     logo.style.height = '35px';
     logo.style.marginRight = '5px';
@@ -68,6 +72,7 @@ window.addEventListener('scroll', () => {
   }
   else {
     header.style.backgroundColor = 'transparent';
+        header.style.height = "80px";
     header.style.paddingTop = "10px"
     logo.style.height = '40px';
     logo.style.marginRight = '0px';
