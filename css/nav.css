@@ -8,6 +8,7 @@
 
 .main-nav {
     width: 100vw;
+    height: 80px;
     padding: 25px 0;
     position: fixed;
     overflow: hidden;
@@ -76,12 +77,11 @@
 .language {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: start;
     background: none;
     margin-left: 15px;
     border: 0;
-    margin-top: 26px;
+    margin-top: 3px;
+    cursor: pointer;
 }
 
 .language1-parent {
@@ -92,13 +92,15 @@
 }
 
 .language2-parent {
+    position: absolute;
     display: flex;
     opacity: 0;
     pointer-events: none;
     align-items: center;
     justify-content: start;
+    margin-left: 85px;
     transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
-    transform: translateY(-46px);
+    transform: translateX(-85px);
 }
 
 .language-link {
@@ -115,22 +117,27 @@
     margin-left: 10px;
 }
 
+.language-text2 {
+    display: block;
+}
+
 .arrow-down {
     height: 15px;
-    margin-left: 10px;
-    margin-bottom: 3px;
+    margin-left: 5px;
+    margin-bottom: 4px;
     transition: 0.3s;
 }
 
 .arrow-down-img {
     width: 20px;
+    transform: rotate(-90deg);
 }
 
 .show-language {
     display: flex;
     opacity: 1;
     pointer-events: all;
-    transform: translateY(0);
+    transform: translateX(0);
 }
 
 .burger {
@@ -171,6 +178,10 @@
 }
 
 @media screen and (max-width: 1100px) {
+    .arrow-down-img {
+        transform: rotate(0deg);
+    }
+
     .burger {
         display: block;
     }
@@ -211,6 +222,7 @@
     .language {
         width: 100%;
         margin: 0;
+        flex-direction: column;
         margin-top: 20px;
         justify-content: center;
     }
@@ -223,10 +235,17 @@
     }
 
     .language2-parent {
+        position: static;
         width: 100%;
         padding: 13px;
-        padding-left: 35px;
         transition: 0.3s;
+        margin: 0;
+        padding-left: 35px;
+        transform: translateY(-43px);
+    }
+
+    .show-language {
+        transform: translateY(0);
     }
 
     .language1-parent:hover {
