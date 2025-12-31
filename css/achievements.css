@@ -38,7 +38,8 @@
     height: 130px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: end;
+    gap: 15px;
     align-items: center;
     font-size: 17px;
     transition: 0.3s;
@@ -52,25 +53,21 @@
     height: 55%;
 }
 
-.slider-div:hover .slider-div-img3 {
-    height: 67%;
-}
-
 .slider-div:hover .slider-div-img2 {
-    height: 50%;
+    height: 45px;
 }
 
 .slider-div-img {
-    height: 70px;
+    height: 65px;
     transition: 0.3s;
 }
 
-.slider-div-img3 {
-    height: 65%;
+.radius {
+    border-radius: 5px;
 }
 
 .slider-div-img2 {
-    height: 60px;
+    height: 40px;
     border-radius: 5px;
     transition: 0.3s;
 }
